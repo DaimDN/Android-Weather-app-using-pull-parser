@@ -11,9 +11,9 @@
             android:layout_height="34dp"
             android:layout_gravity="center_vertical|center_horizontal"
             android:gravity="center|center_horizontal"
-            android:text="Select Campus Location"
+            android:text="Select Location"
             android:textColor="#E65100"
-            android:textSize="20sp" />
+            android:textSize="26sp" />
 
         <Spinner
             android:id="@+id/spinner"
@@ -22,9 +22,9 @@
             android:background="@drawable/spinner"
             android:gravity="center"
             android:spinnerMode="dropdown"
-            android:textAlignment="center"
             android:textColor="#E65100"
-            android:textSize="13sp" />
+            android:textAlignment="center"
+            android:textSize="26sp" />
 
 
         <Button
@@ -38,7 +38,7 @@
             android:text="Search "
 
             android:textAlignment="center"
-            android:textSize="12sp"
+            android:textSize="16sp"
             android:textStyle="bold"
             android:verticalScrollbarPosition="right" />
 
@@ -60,7 +60,7 @@
                     <ListView
                         android:id="@+id/listView"
                         android:layout_width="match_parent"
-                        android:layout_height="570dp"
+                        android:layout_height="700dp"
                         android:layout_gravity="center" />
 
 
