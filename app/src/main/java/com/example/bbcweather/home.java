@@ -1,5 +1,15 @@
 package com.example.bbcweather;
 
+
+/*
+*
+* student Name : Abdul Daim
+*
+* student Matriculation Number : S1712453
+*
+*
+*  */
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -81,6 +91,22 @@ public class home extends AppCompatActivity implements AdapterView.OnItemSelecte
             adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
             spinner.setAdapter(adapter);
             spinner.setOnItemSelectedListener(this);
+
+        Button button = (Button) findViewById(R.id.btn2);
+
+        button.setOnClickListener(new View.OnClickListener() {
+
+
+            public void onClick(View v) {
+
+                startActivity(getIntent());
+
+
+            }
+
+
+
+        });
 
     }
 

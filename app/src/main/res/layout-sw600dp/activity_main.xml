@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+/*
+*
+* student Name : Abdul Daim
+*
+* student Matriculation Number : S1712453
+*
+*
+*  */
+-->
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,19 +22,19 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="261dp"
-        android:layout_height="129dp"
+        android:layout_width="206dp"
+        android:layout_height="142dp"
         android:fontFamily="sans-serif-black"
-        android:text="BBC"
+        android:text="GCU"
         android:textColor="#FFFFFF"
         android:textSize="90sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.598"
+        app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.324" />
+        app:layout_constraintVertical_bias="0.226" />
 
     <TextView
         android:id="@+id/textView2"
@@ -32,10 +45,10 @@
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintHorizontal_bias="0.547"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.434" />
+        app:layout_constraintVertical_bias="0.353" />
 
     <Button
         android:id="@+id/button5"
@@ -49,9 +62,8 @@
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintHorizontal_bias="0.541"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.791" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
